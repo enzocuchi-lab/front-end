@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 style="color: #9a44fd;">Imagen e dinâmica</h1>
+
+
+    <p>Tente abrir esse site em vários dispositivos ou simplismente diminua o tamanho do seu navegador.</p>
+    <picture><!--usado para fazer imagens rsponsivas ou seja que se adaptam-->
+    <source media="(min-width:750 px )" srcset="imagens/comandos-sql-quais-sao.jpg" type="image/png"><!--source define o tamanho da imagenque vai brir, srcset é usado para definir o arquivo da imagen e o type define o tipo de imagen--> 
+    <source media="(min-width: 1050px)" srcset="imagens/Editor-HTML-CSS-e-JavaScript-qual-você-deve-usar-em-2020-segundo-profissionais.jpg" type="image/png">
+    <img src="imagens/o-que-e-html.png" alt="imagen flexivel"></picture>
+    
+</body>
+</html>
